@@ -1,0 +1,19 @@
+{
+  "name": "ci-cd-action-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "dev": "ts-node-dev --respawn --transpileOnly ./app/app.ts",
+    "prod": "tsc && node ./dist/index.js"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.3",
+    "express": "^4.17.1",
+    "typescript": "^3.8.3"
+  }
+}

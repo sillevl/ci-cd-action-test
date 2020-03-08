@@ -4,7 +4,7 @@ import express from 'express';
 const app: express.Application = express();
 
 app.get('/', function (req, res) {
-  res.send('Hello World!');
+  res.send('Hello World with GitHub Actions!');
 });
 
 app.listen(3000, function () {
